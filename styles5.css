@@ -1,0 +1,273 @@
+body{
+}
+
+.hero{
+  height: 400px;
+  display: flex;
+  background-image: url(https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/10629680_626264470827185_6149649746644955784_n.jpg?_nc_cat=0&oh=80ec40fbd107cec8758db5b6449c5fec&oe=5B6C769B);
+  background-size:auto;
+  padding: 50px 0 0 0;
+  color: white;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.container1{
+  height: 400px;
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  background-image: url(https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/1176358_10151615303371973_825662015_n.jpg?_nc_cat=0&oh=76da8a0f660d5982e317fdc423fa0985&oe=5B668364);
+  background-size:cover;
+  padding: 50px 0 0 0;
+  color: white;
+}
+
+.container2{
+  height: 400px;
+  width: 1000px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  background-image: url(https://scontent-arn2-1.xx.fbcdn.net/v/t1.0-9/301293_10150436157784937_7233193_n.jpg?_nc_cat=0&oh=68750d79c109a125b8ab1e85580a131a&oe=5B307803);
+  background-size:cover;
+  padding: 50px 0 0 0;
+  color: white;
+}
+
+.container3{
+  height: 350px;
+  width: 600px;
+  margin: auto;
+  display: flex;
+  text-align: center;
+  background-image: url("bok.png");
+  background-size:cover;
+  padding: 50px 0 0 0;
+  color: white;
+}
+
+.empty-container{
+  height: 100px;
+  background-color: white;
+}
+
+.color-container{
+  height: 250px;
+  background-color: #D2E0CB;
+}
+
+.main-heading{
+  display: flex;
+  font-family:'Roboto', sans-serif;
+  font-size: 40px;
+  margin-bottom: 180px;
+}
+
+.second-heading{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family:'Roboto', sans-serif;
+  font-size: 30px;
+  color: black;
+}
+
+.third-heading{
+  height: 60px;
+  padding-top: 20px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  font-family:'Roboto', sans-serif;
+  font-size: 30px;
+  color: white;
+  background-color: #7C9C97;
+}
+
+.statement{
+    height:100px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    color: #6E7D7F;
+    background-color: white;
+}
+
+.color-statement{
+    height:100px;
+    margin-top: 0;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    font-family:'Roboto', sans-serif;
+    font-size: 15px;
+    color: #6E7D7F;
+}
+
+.personlighet{
+  height: 270px;
+  display: flex;
+  align-items: flex-star;
+  justify-content: center;
+  background-color: #D2E0CB;
+}
+
+.personlighet2{
+  height: 450px;
+  display: flex;
+  align-items: flex-star;
+  justify-content: center;
+    background-color: #D2E0CB;
+}
+
+.egenskap{
+  height: 230px;
+  width: 228px;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  background-color: #bab6b7;
+  margin: 15px;
+
+  font-family:'Roboto', sans-serif;
+  font-size: 40px;
+}
+
+.egenskap-ett{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("surf.png");
+  background-size: cover;
+  height: 230px;
+  width: 230px;
+  margin: 15px;
+  font-family:'Roboto', sans-serif;
+  font-size: 40px;
+  border: 4px solid white;
+}
+
+.egenskap-tva{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("tennis.png");
+  background-size: cover;
+  height: 230px;
+  width: 230px;
+  margin: 15px;
+  font-family:'Roboto', sans-serif;
+  font-size: 40px;
+  border: 4px solid white;
+}
+
+.egenskap-tre{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("segla2.png");
+  background-size: cover;
+  height: 230px;
+  width: 230px;
+  margin: 15px;
+  font-family:'Roboto', sans-serif;
+  font-size: 40px;
+  border: 4px solid white;
+}
+
+.egenskap-fyra{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("skida.png");
+  background-size: cover;
+  height: 230px;
+  width: 230px;
+  margin: 15px;
+  font-family:'Roboto', sans-serif;
+  font-size: 40px;
+  border: 4px solid white;
+  opacity: 0.8;
+}
+.egenskap-ett:hover{
+  opacity:0.8;
+  filter: alpha(opacity=50);
+  color: white;
+}
+
+.egenskap-tva:hover{
+  opacity:0.8;
+  color: white;
+}
+
+.egenskap-tre:hover{
+  opacity: 0.8;
+  color: white;
+}
+
+.egenskap-fyra:hover{
+  color: white;
+  opacity: 0.6;
+}
+
+
+.segla1{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("segla.png");
+  background-size: cover;
+  height: 400px;
+  width: 400px;
+  margin: 15px;
+  font-family:'Roboto', sans-serif;
+  font-size: 40px;
+  margin:20px;
+  background-color: #D2E0CB;
+  opacity: 0.95;
+}
+
+.segla2{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-image: url("segla3.png");
+  background-size: cover;
+  height: 400px;
+  width: 550px;
+  margin: 15px;
+  font-family:'Roboto', sans-serif;
+  font-size: 40px;
+  margin:20px;
+  background-color: #D2E0CB;
+}
+
+p:hover{
+  color: grey;
+}
+
+.container1:hover{
+  opacity: 0.8;
+}
+
+.container2:hover{
+  opacity: 0.8;
+}
+
+.segla1:hover{
+  opacity: 0.8;
+}
+
+.segla2:hover{
+  opacity: 0.8;
+}
